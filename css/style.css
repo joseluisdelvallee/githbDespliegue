@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------------- HEADER GLOBAL ----------------------------- */
+
+header {
+    background-image: url("../img/Designer.png");
+    padding: 10px;
+    height: 6vh;
+    /* imagenFixed clase en MAIN GLOBAL */
+}
+
+.menuNavUl > li {
+    list-style-type: none;
+}
+
+.menuNavUl > li > a {
+    float: left;
+    margin-right: 25px;
+    text-align: center;
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer; /* Para que al pasar el raton por encima cambie de a la manita */
+    height: 5vh;
+    width: 6vw;
+    padding-top: 1vh;
+}
+
+.botonFormulario {
+    width: 7vw;
+    height: 6vh;
+}
+
+/* ----------------------------- MAIN GLOBAL ----------------------------- */
+
+main {
+    background-color: lightyellow;
+    padding: 2vh 0;
+}
+
+.limpiar {
+    clear: both;
+}
+
+.imagenFixed {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.imagenTexto > img {
+    width: 25%;
+    display: block;
+    float: left;
+}
+
+.imagenTexto > p {
+    margin: 0 1vw;
+    width: 70%;
+    float: left;
+    text-align: justify;
+}
+
+/* ----------------------------- FOOTER GLOBAL ----------------------------- */
+
+footer {
+    background-color: lightcoral;
+    padding: 2vh 2vw;
+    height: 6vh;
+}   
+
+/* ----------------------------- TITULO ----------------------------- */
+
+#seccionTitulo {
+    padding: 2vh 10vw;
+}
+
+#seccionTitulo > h1 {
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 2vh;
+}
+
+#seccionTitulo > div {
+    text-align: center;
+}
+
+#seccionTitulo > div > img {
+    width: 45vw;
+}
+
+#seccionTitulo > div > p {
+    font-size: x-large;
+    padding: 2vh 0;
+}
+
+/* ----------------------------- ESTADISTICAS (tabla) ----------------------------- */
+
+#seccionTabla {
+    background-color: lightsteelblue;
+    padding: 2vh 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("../img/Designer.png");
+    /* imagenFixed clase en MAIN GLOBAL */
+}
+
+#seccionTabla > div {
+    background-color: rgba(197, 197, 197, 0.863);
+    width: 70vw;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2vh 2vw;
+}
+
+#seccionTabla > div > h2 {
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+#tablaEstadisticas {
+    border-collapse: collapse;
+    margin: auto;
+    width: 50vw;
+}
+
+#tablaEstadisticas td, #tablaEstadisticas th {
+    border: 1px solid black;
+    padding: 1vh 1vw;
+}
+
+#tablaEstadisticas th {
+    background-color: rgb(51, 51, 202);
+    color: white;
+}
+
+#tablaEstadisticas tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+#tablaEstadisticas tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+#tablaEstadisticas tr:hover {
+    background-color: rgb(44, 44, 133);
+    color: white;
+}
+
+/* ----------------------------- MAS FRECUENTES (LISTA) ----------------------------- */
+
+#seccionMasFrecuentes > h2 {
+    margin: 2vh 2vw;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    font-size: x-large;
+    padding: 1vh 0;
+    border-radius: 10px;
+}
+
+/*#seccionMasFrecuentes > ol {
+    margin: 2vh 2vw;
+}*/
+
+/* ----------------------------- FORMULARIO ----------------------------- */
+
+#seccionFormulario {
+    padding: 2vh 0;
+}
+
+#formulario {
+    margin: auto;
+    width: 75%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2vh 2vw;
+    background-color: lightgoldenrodyellow;
+}
+
+#formulario > h2 {
+    text-align: center;
+}
+
+#formulario input[type="text"], #formulario select, textarea {
+    height: 3vh;
+    margin: 0 1vw;
+    padding: 0 .3vw;
+}
+
+#formulario textarea {
+    padding: 1vh .3vw;
+}
+
+#formulario input[type="radio"] {
+    margin-left: 1vw;
+}
+
+#formulario > hr{
+    margin: 4vh 1vw;
+}
+
+.apartadosFormulario {
+    margin: 0 2vh;
+}
+
+.apartadosFormulario > div {
+    margin: 1vh 0;
+}
+
+#obligatorio {
+    color: red;
+}
+
+#botonesFormulario {
+    text-align: right;
+}
+
+#botonesFormulario input[type="submit"] {
+    width: 10vw;
+    height: 5vh;
+    border-radius: 5px;
+    background-color: rgb(17, 184, 17);
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#botonesFormulario button {
+    width: 7vw;
+    height: 4vh;
+    border-radius: 5px;
+    background-color: lightgray;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* ----------------------------- COMUNIDAD ----------------------------- */
+
+#seccionComunidad > h2 {
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    font-size: xx-large;
+    padding: 1vh 0;
+}
+
+#seccionComunidad > article {
+    margin: 2vh 2vw;
+}
+
+#seccionComunidad > article > h3{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1vh 0;
+    text-align: center;
+}
+
+#seccionComunidad > article > div {
+    margin: 5vh 5vw;
+}
+
+/* imagenTitulo en general */
+
+#seccionComunidad > article > p {
+    clear: both;
+    text-align: center;
+    font-size: large;
+}
